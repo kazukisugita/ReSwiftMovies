@@ -21,6 +21,8 @@ class CheckedMoviesListViewController: UIViewController, StoreSubscriber {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Checked"
+        
         configureLayouts()
     }
     

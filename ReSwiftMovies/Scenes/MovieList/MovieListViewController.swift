@@ -7,7 +7,6 @@ import AlamofireImage
 
 class MovieListViewController: UIViewController, ViewModelBased, StoreSubscriber {
     
-    var viewModel: MoviesListViewModel!
     private var movies = [DiscoverMovieModel]()
     
     lazy var tableView: UITableView = {
@@ -22,6 +21,8 @@ class MovieListViewController: UIViewController, ViewModelBased, StoreSubscriber
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Movies"
         
         configureLayouts()
         
@@ -96,8 +97,8 @@ extension MovieListViewController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         
         let movie = self.movies[indexPath.row]
-        let movieDetailViewModel = MovieDetailViewModel(with: self.viewModel.injectionContainer, withMovieId: movie.id)
-        let movieDetailViewController = MovieDetailViewController.instanceFromSB(with: movieDetailViewModel)
+        let movieDetailViewController = MovieDetailViewController.instanceFromSB()
+        movieDetailViewController.movieID = movie.id
         UIApplication.shared.keyWindow?.rootViewController?.present(movieDetailViewController, animated: true)
         
         store.dispatch(AppActions.CheckedMovies.addChecked(movie: movie))

@@ -13,10 +13,8 @@ class MainTabBarController: UITabBarController {
         
         self.tabBar.isTranslucent = false
         
-        let dependencyContainer = DependencyContainer(withStore: store, withNetworkService: networkService)
-        
         let viewControllers = [
-            MovieListViewController.instanceFromCode(with: MoviesListViewModel(with: dependencyContainer)),
+            MovieListViewController(),
             CheckedMoviesListViewController()
         ]
         

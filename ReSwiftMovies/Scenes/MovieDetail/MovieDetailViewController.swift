@@ -22,12 +22,14 @@ class MovieDetailViewController: UIViewController, ViewModelBased, StoreSubscrib
     @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    var viewModel: MovieDetailViewModel!
+    public var movieID: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        store.dispatch(AppActions.MovieDetail.loadDetail(movieID: viewModel.movieId))
+        if let movieID = self.movieID {
+            store.dispatch(AppActions.MovieDetail.loadDetail(movieID: movieID))
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

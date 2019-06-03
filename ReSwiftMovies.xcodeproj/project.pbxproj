@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BB34301E22A4B086007EA1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34301D22A4B086007EA1D2 /* AppDelegate.swift */; };
-		BB34302022A4B086007EA1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34301F22A4B086007EA1D2 /* ViewController.swift */; };
 		BB34302322A4B086007EA1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB34302122A4B086007EA1D2 /* Main.storyboard */; };
 		BB34302522A4B088007EA1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB34302422A4B088007EA1D2 /* Assets.xcassets */; };
 		BB34302822A4B088007EA1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB34302622A4B088007EA1D2 /* LaunchScreen.storyboard */; };
@@ -28,12 +27,8 @@
 		BB34309022A4C28A007EA1D2 /* DiscoverMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34308D22A4C28A007EA1D2 /* DiscoverMovieResponse.swift */; };
 		BB34309122A4C28A007EA1D2 /* DiscoverTVResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34308E22A4C28A007EA1D2 /* DiscoverTVResponse.swift */; };
 		BB34309222A4C28A007EA1D2 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34308F22A4C28A007EA1D2 /* Media.swift */; };
-		BB34309422A4C2CE007EA1D2 /* MoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309322A4C2CE007EA1D2 /* MoviesListViewModel.swift */; };
 		BB34309722A4C30D007EA1D2 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309622A4C30D007EA1D2 /* ViewModelBased.swift */; };
-		BB34309922A4C34A007EA1D2 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309822A4C34A007EA1D2 /* DependencyContainer.swift */; };
 		BB34309D22A4C38D007EA1D2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309C22A4C38D007EA1D2 /* AppState.swift */; };
-		BB3430A022A4C46C007EA1D2 /* Injectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309E22A4C46C007EA1D2 /* Injectable.swift */; };
-		BB3430A122A4C46C007EA1D2 /* HasStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309F22A4C46C007EA1D2 /* HasStore.swift */; };
 		BB3430A422A4C490007EA1D2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430A322A4C490007EA1D2 /* NetworkService.swift */; };
 		BB3430A622A4C4AE007EA1D2 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430A522A4C4AE007EA1D2 /* Routes.swift */; };
 		BB3430A922A4C644007EA1D2 /* AppReducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430A822A4C644007EA1D2 /* AppReducers.swift */; };
@@ -42,14 +37,12 @@
 		BB3430B022A4D76E007EA1D2 /* MovieListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB34308622A4C194007EA1D2 /* MovieListViewCell.xib */; };
 		BB3430B522A4D85B007EA1D2 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430B222A4D85B007EA1D2 /* MovieDetailViewController.swift */; };
 		BB3430B622A4D85B007EA1D2 /* MovieDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3430B322A4D85B007EA1D2 /* MovieDetailViewController.storyboard */; };
-		BB3430B722A4D85B007EA1D2 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430B422A4D85B007EA1D2 /* MovieDetailViewModel.swift */; };
 		BB3430BC22A4E416007EA1D2 /* CheckedMoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430BA22A4E416007EA1D2 /* CheckedMoviesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB34301A22A4B086007EA1D2 /* ReSwiftMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReSwiftMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB34301D22A4B086007EA1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB34301F22A4B086007EA1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB34302222A4B086007EA1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB34302422A4B088007EA1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB34302722A4B088007EA1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,12 +71,8 @@
 		BB34308D22A4C28A007EA1D2 /* DiscoverMovieResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverMovieResponse.swift; sourceTree = "<group>"; };
 		BB34308E22A4C28A007EA1D2 /* DiscoverTVResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTVResponse.swift; sourceTree = "<group>"; };
 		BB34308F22A4C28A007EA1D2 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
-		BB34309322A4C2CE007EA1D2 /* MoviesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListViewModel.swift; sourceTree = "<group>"; };
 		BB34309622A4C30D007EA1D2 /* ViewModelBased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
-		BB34309822A4C34A007EA1D2 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		BB34309C22A4C38D007EA1D2 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		BB34309E22A4C46C007EA1D2 /* Injectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injectable.swift; sourceTree = "<group>"; };
-		BB34309F22A4C46C007EA1D2 /* HasStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasStore.swift; sourceTree = "<group>"; };
 		BB3430A322A4C490007EA1D2 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		BB3430A522A4C4AE007EA1D2 /* Routes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
 		BB3430A822A4C644007EA1D2 /* AppReducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducers.swift; sourceTree = "<group>"; };
@@ -91,7 +80,6 @@
 		BB3430AE22A4D15E007EA1D2 /* AppMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMiddleware.swift; sourceTree = "<group>"; };
 		BB3430B222A4D85B007EA1D2 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		BB3430B322A4D85B007EA1D2 /* MovieDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MovieDetailViewController.storyboard; sourceTree = "<group>"; };
-		BB3430B422A4D85B007EA1D2 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 		BB3430BA22A4E416007EA1D2 /* CheckedMoviesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckedMoviesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,7 +130,6 @@
 				BB34308822A4C1FC007EA1D2 /* Extensions */,
 				BB34303022A4B83C007EA1D2 /* Scenes */,
 				BB34301D22A4B086007EA1D2 /* AppDelegate.swift */,
-				BB34301F22A4B086007EA1D2 /* ViewController.swift */,
 				BB34302122A4B086007EA1D2 /* Main.storyboard */,
 				BB34302422A4B088007EA1D2 /* Assets.xcassets */,
 				BB34302622A4B088007EA1D2 /* LaunchScreen.storyboard */,
@@ -197,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				BB34308322A4C15F007EA1D2 /* MovieListViewController.swift */,
-				BB34309322A4C2CE007EA1D2 /* MoviesListViewModel.swift */,
 				BB34308522A4C194007EA1D2 /* MovieListViewCell.swift */,
 				BB34308622A4C194007EA1D2 /* MovieListViewCell.xib */,
 			);
@@ -216,7 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				BB3430A522A4C4AE007EA1D2 /* Routes.swift */,
-				BB34309822A4C34A007EA1D2 /* DependencyContainer.swift */,
 				BB34308C22A4C279007EA1D2 /* Codables */,
 			);
 			path = Models;
@@ -235,8 +220,6 @@
 		BB34309522A4C2FB007EA1D2 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				BB34309F22A4C46C007EA1D2 /* HasStore.swift */,
-				BB34309E22A4C46C007EA1D2 /* Injectable.swift */,
 				BB34309622A4C30D007EA1D2 /* ViewModelBased.swift */,
 			);
 			path = Protocols;
@@ -298,7 +281,6 @@
 			children = (
 				BB3430B322A4D85B007EA1D2 /* MovieDetailViewController.storyboard */,
 				BB3430B222A4D85B007EA1D2 /* MovieDetailViewController.swift */,
-				BB3430B422A4D85B007EA1D2 /* MovieDetailViewModel.swift */,
 			);
 			path = MovieDetail;
 			sourceTree = "<group>";
@@ -410,17 +392,12 @@
 				BB34308722A4C194007EA1D2 /* MovieListViewCell.swift in Sources */,
 				BB34308A22A4C20B007EA1D2 /* NSObject+className.swift in Sources */,
 				BB34309722A4C30D007EA1D2 /* ViewModelBased.swift in Sources */,
-				BB34302022A4B086007EA1D2 /* ViewController.swift in Sources */,
 				BB3430B522A4D85B007EA1D2 /* MovieDetailViewController.swift in Sources */,
 				BB34309122A4C28A007EA1D2 /* DiscoverTVResponse.swift in Sources */,
-				BB3430B722A4D85B007EA1D2 /* MovieDetailViewModel.swift in Sources */,
 				BB34301E22A4B086007EA1D2 /* AppDelegate.swift in Sources */,
-				BB3430A122A4C46C007EA1D2 /* HasStore.swift in Sources */,
-				BB3430A022A4C46C007EA1D2 /* Injectable.swift in Sources */,
 				BB3430AC22A4C6E6007EA1D2 /* AppActions.swift in Sources */,
 				BB3430A922A4C644007EA1D2 /* AppReducers.swift in Sources */,
 				BB3430BC22A4E416007EA1D2 /* CheckedMoviesListViewController.swift in Sources */,
-				BB34309422A4C2CE007EA1D2 /* MoviesListViewModel.swift in Sources */,
 				BB34309222A4C28A007EA1D2 /* Media.swift in Sources */,
 				BB3430A622A4C4AE007EA1D2 /* Routes.swift in Sources */,
 				BB3430AF22A4D15E007EA1D2 /* AppMiddleware.swift in Sources */,
@@ -428,7 +405,6 @@
 				BB34306222A4BBDF007EA1D2 /* MainTabBarController.swift in Sources */,
 				BB34308422A4C15F007EA1D2 /* MovieListViewController.swift in Sources */,
 				BB34309D22A4C38D007EA1D2 /* AppState.swift in Sources */,
-				BB34309922A4C34A007EA1D2 /* DependencyContainer.swift in Sources */,
 				BB34309022A4C28A007EA1D2 /* DiscoverMovieResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
