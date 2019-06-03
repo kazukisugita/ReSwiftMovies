@@ -11,7 +11,7 @@ import Alamofire
 import AlamofireImage
 import ReSwift
 
-class MovieDetailViewController: UIViewController, ViewModelBased, StoreSubscriber {
+class MovieDetailViewController: UIViewController, StoryBoardable, StoreSubscriber {
 
     @IBOutlet weak var posterImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!

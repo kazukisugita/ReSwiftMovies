@@ -27,7 +27,7 @@
 		BB34309022A4C28A007EA1D2 /* DiscoverMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34308D22A4C28A007EA1D2 /* DiscoverMovieResponse.swift */; };
 		BB34309122A4C28A007EA1D2 /* DiscoverTVResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34308E22A4C28A007EA1D2 /* DiscoverTVResponse.swift */; };
 		BB34309222A4C28A007EA1D2 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34308F22A4C28A007EA1D2 /* Media.swift */; };
-		BB34309722A4C30D007EA1D2 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309622A4C30D007EA1D2 /* ViewModelBased.swift */; };
+		BB34309722A4C30D007EA1D2 /* StoryBoardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309622A4C30D007EA1D2 /* StoryBoardable.swift */; };
 		BB34309D22A4C38D007EA1D2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34309C22A4C38D007EA1D2 /* AppState.swift */; };
 		BB3430A422A4C490007EA1D2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430A322A4C490007EA1D2 /* NetworkService.swift */; };
 		BB3430A622A4C4AE007EA1D2 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3430A522A4C4AE007EA1D2 /* Routes.swift */; };
@@ -71,7 +71,7 @@
 		BB34308D22A4C28A007EA1D2 /* DiscoverMovieResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverMovieResponse.swift; sourceTree = "<group>"; };
 		BB34308E22A4C28A007EA1D2 /* DiscoverTVResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTVResponse.swift; sourceTree = "<group>"; };
 		BB34308F22A4C28A007EA1D2 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
-		BB34309622A4C30D007EA1D2 /* ViewModelBased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
+		BB34309622A4C30D007EA1D2 /* StoryBoardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardable.swift; sourceTree = "<group>"; };
 		BB34309C22A4C38D007EA1D2 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		BB3430A322A4C490007EA1D2 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		BB3430A522A4C4AE007EA1D2 /* Routes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
@@ -220,7 +220,7 @@
 		BB34309522A4C2FB007EA1D2 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				BB34309622A4C30D007EA1D2 /* ViewModelBased.swift */,
+				BB34309622A4C30D007EA1D2 /* StoryBoardable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -391,7 +391,7 @@
 			files = (
 				BB34308722A4C194007EA1D2 /* MovieListViewCell.swift in Sources */,
 				BB34308A22A4C20B007EA1D2 /* NSObject+className.swift in Sources */,
-				BB34309722A4C30D007EA1D2 /* ViewModelBased.swift in Sources */,
+				BB34309722A4C30D007EA1D2 /* StoryBoardable.swift in Sources */,
 				BB3430B522A4D85B007EA1D2 /* MovieDetailViewController.swift in Sources */,
 				BB34309122A4C28A007EA1D2 /* DiscoverTVResponse.swift in Sources */,
 				BB34301E22A4B086007EA1D2 /* AppDelegate.swift in Sources */,

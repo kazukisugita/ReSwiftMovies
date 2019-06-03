@@ -5,7 +5,7 @@ import SnapKit
 import Alamofire
 import AlamofireImage
 
-class MovieListViewController: UIViewController, ViewModelBased, StoreSubscriber {
+class MovieListViewController: UIViewController, StoryBoardable, StoreSubscriber {
     
     private var movies = [DiscoverMovieModel]()
     
